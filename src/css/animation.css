@@ -1,0 +1,51 @@
+@keyframes one {
+  0% {
+    transform: translate(200%, 200%);
+  }
+}
+@keyframes two {
+  0% {
+    transform: translate(0, 200%);
+  }
+}
+@keyframes three {
+  0% {
+    transform: translate(0, 100%);
+  }
+}
+@keyframes four {
+  0% {
+    transform: translate(100%, -100%);
+  }
+  50% {
+    transform: translate(0, -100%);
+  }
+}
+@keyframes five {
+  0% {
+    transform: translate(-100%, 0);
+  }
+}
+@keyframes six {
+  0% {
+    transform: translate(-200%, -100%);
+  }
+}
+@keyframes seven {
+  0% {
+    transform: translate(100%, -100%);
+  }
+  50% {
+    transform: translate(100%, 0);
+  }
+}
+@keyframes eight {
+  0% {
+    transform: translate(0, -200%);
+  }
+}
+@keyframes nine {
+  0% {
+    transform: translate(-100%, 0);
+  }
+}

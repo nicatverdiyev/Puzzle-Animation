@@ -1,0 +1,48 @@
+:root {
+  --primrary-color: #1b9ac9;
+}
+
+body {
+  background-color: var(--primrary-color);
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+
+  width: 780px;
+
+  .main-item {
+    border: 1px solid;
+    height: 150px;
+
+    &:first-of-type {
+      animation: one 5s;
+    }
+    &:nth-of-type(2) {
+      animation: two 5s;
+    }
+    &:nth-of-type(3) {
+      animation: three 5s;
+    }
+    &:nth-of-type(4) {
+      animation: four 5s;
+    }
+    &:nth-of-type(5) {
+      animation: five 5s;
+    }
+    &:nth-of-type(6) {
+      animation: six 5s;
+    }
+    &:nth-of-type(7) {
+      animation: seven 5s;
+    }
+    &:nth-of-type(8) {
+      animation: eight 5s;
+    }
+    &:nth-of-type(9) {
+      animation: nine 5s;
+    }
+  }
+}
